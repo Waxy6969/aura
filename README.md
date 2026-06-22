@@ -1,6 +1,6 @@
 # Aura Customz Landing Page
 
-Static landing page for Aura Customz custom car tint with contact CTAs, tint highlights, and social links.
+Static landing page for Aura Customz window tint with contact CTAs, tint highlights, and social links.
 
 ## Local Preview
 
