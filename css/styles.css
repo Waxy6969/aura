@@ -617,20 +617,20 @@ header .header-content .inner h4 {
 .btn {
     position: relative;
     overflow: hidden;
-    border-radius: 999px;
+    border-radius: 14px;
     text-transform: uppercase;
     font-weight: 800;
     letter-spacing: 0;
-    box-shadow: inset 0 1px 0 rgba(255, 255, 255, .2), 0 18px 46px rgba(0, 0, 0, .2);
+    box-shadow: inset 0 1px 0 rgba(255, 255, 255, .14), 0 14px 34px rgba(0, 0, 0, .18);
 }
 
 .btn:before {
     content: "";
     position: absolute;
     inset: 1px 1px auto;
-    height: 48%;
+    height: 34%;
     border-radius: inherit;
-    background: linear-gradient(180deg, rgba(255, 255, 255, .24), rgba(255, 255, 255, 0));
+    background: linear-gradient(180deg, rgba(255, 255, 255, .14), rgba(255, 255, 255, 0));
     pointer-events: none;
 }
 
@@ -692,21 +692,21 @@ header .header-content .inner h4 {
         linear-gradient(160deg, rgba(255, 255, 255, .105), rgba(255, 255, 255, .035) 42%, rgba(16, 215, 255, .045)),
         rgba(8, 11, 17, .72);
     border: 1px solid rgba(255, 255, 255, .13);
-    border-radius: 28px;
+    border-radius: 16px;
     box-shadow:
-        inset 0 1px 0 rgba(255, 255, 255, .14),
-        0 26px 70px rgba(0, 0, 0, .24);
+        inset 0 1px 0 rgba(255, 255, 255, .1),
+        0 18px 46px rgba(0, 0, 0, .22);
     backdrop-filter: blur(16px) saturate(130%);
     transition: transform .28s ease, border-color .28s ease, box-shadow .28s ease;
 }
 
 .feature:hover {
-    transform: translateY(-4px);
+    transform: translateY(-2px);
     border-color: rgba(16, 215, 255, .28);
     box-shadow:
         inset 0 1px 0 rgba(255, 255, 255, .18),
-        0 30px 78px rgba(0, 0, 0, .28),
-        0 0 38px rgba(16, 215, 255, .08);
+        0 22px 56px rgba(0, 0, 0, .25),
+        0 0 24px rgba(16, 215, 255, .06);
 }
 
 .feature .icon-lg,
@@ -752,7 +752,7 @@ header .header-content .inner h4 {
 
 .modal-content {
     border: 1px solid rgba(16, 215, 255, .22);
-    border-radius: 28px;
+    border-radius: 16px;
     overflow: hidden;
     background: rgba(7, 9, 14, .86);
     backdrop-filter: blur(16px);
