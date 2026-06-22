@@ -1,0 +1,5 @@
+$ORIGIN auracustoms.com.
+$TTL 3600
+
+@     IN A     76.76.21.21
+www   IN CNAME cname.vercel-dns-0.com.
